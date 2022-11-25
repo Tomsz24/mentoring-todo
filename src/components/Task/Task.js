@@ -1,7 +1,7 @@
 
 
-export const Task = () => {
+export const Task = ({value}) => {
   return (
-    <div>I'm task</div>
+    <li>{value}</li>
   );
 };
