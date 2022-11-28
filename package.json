@@ -19,6 +19,9 @@
     "prepare": "husky install",
     "prettier": "npx prettier --write ."
   },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
