@@ -1,7 +1,3 @@
-
-
-export const Task = ({value}) => {
-  return (
-    <li>{value}</li>
-  );
+export const Task = ({ value }) => {
+  return <li>{value}</li>;
 };

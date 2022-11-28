@@ -6,8 +6,8 @@ const listOfTasks = atom({
 });
 
 const filtredTasksList = selector({
-  key: 'FilteredList',
-  get: ({get}) => get(listOfTasks),
-})
+  key: "FilteredList",
+  get: ({ get }) => get(listOfTasks),
+});
 
-export { listOfTasks as ListOfTasks, filtredTasksList};
+export { listOfTasks as ListOfTasks, filtredTasksList };
