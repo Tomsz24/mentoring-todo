@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { useSetRecoilState } from "recoil";
 import { ListOfTasks } from "../../store/store";
@@ -16,7 +17,6 @@ export const Form = () => {
         isCompleted: false,
       },
     ]);
-    console.log(ListOfTasks);
     setValue("");
   };
 
