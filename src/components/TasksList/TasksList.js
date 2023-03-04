@@ -1,4 +1,3 @@
-import React from "react";
 import { Task } from "../Task/Task";
 import { useRecoilValue } from "recoil";
 import { filtredTasksList } from "../../store/store";
@@ -9,7 +8,7 @@ export const TasksList = () => {
     <div>
       <ul>
         {tasksList.map((task) => (
-          <Task value={task.text} key={task.id} item={task} />
+          <Task key={task.id} {...task} />
         ))}
       </ul>
     </div>
