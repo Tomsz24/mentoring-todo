@@ -16,7 +16,6 @@ export const Form = () => {
         isCompleted: false,
       },
     ]);
-    console.log(ListOfTasks);
     setValue("");
   };
 

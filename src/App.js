@@ -1,4 +1,3 @@
-import "./App.css";
 import { Form } from "./components/Form/Form";
 import { TasksList } from "./components/TasksList/TasksList";
 
